@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+	<section class="about_area section_gap">
+        <div class="container">
+            <div class="row justify-content-start align-items-center">
+                <div class="col-lg-5">
+                    <div class="about_img">
+                        <img class="" src="../../../assets/Images/about-us.png" alt="">
+                    </div>
+                </div>
+
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="main_title text-left">
+                        <h2>let’s <br>
+                            Introduce about <br>
+                            myself</h2>
+                        <p>
+                            I am hariom Khurana, 
+                        </p>
+                        <p>
+                            I work as Mean Stact Developer 
+                        </p>
+                        <a class="primary_btn" href="../../../assets/HARIOM KHURANA.pdf"><span>Download CV</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--================ End About Us Area =================-->
+          <section class="brand_area section_gap_bottom">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+
+                  <table style="width:100%">
+                      <tr>
+                        <th> <button type="button" class="btn btn-primary" (click)="openModal(Education)">EDUCATION</button>
+                        </th>
+                        <th> <button type="button" class="btn btn-primary" (click)="openModal(Project)">PROJECT</button>
+                        </th> 
+                        <th><button type="button" class="btn btn-primary" (click)="openModal(Responsibilities)">RESPONSIBILITIES</button>
+                        </th>
+                        <th> <button type="button" class="btn btn-primary" (click)="openModal(Training)">CERTIFICATION </button>
+                        </th>
+                        <th><button type="button" class="btn btn-primary" (click)="openModal(Extra)">EXTRA</button>
+                        </th>
+                      </tr>
+                      
+                    </table>
+                  
+                  <ng-template #Education>
+                    <div class="modal-header">
+                      <h4 class="modal-title pull-left">Education</h4>
+                      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <table style="border: brown;border-radius: 2%" border="2px" text-align="center">
+                            <tr>
+                              <td>Cource /Qualification</td>
+                              <td>Board /University</td>
+                              <td>School /Collage</td>
+                              <td>Marks /CGPA</td>
+                            </tr>
+                            <tr>
+                              <td>MCA</td>
+                              <td>LOVELY PROFESSIONAL UNIVERSITY</td>
+                              <td>DISTANCE LEARNING</td>
+                              <td>7.0</td>
+                            </tr>
+                      
+                            <tr>
+                              <td>BSC-IT</td>
+                              <td>SDSUV</td>
+                              <td>SGRRITS</td>
+                              <td>73 %</td>
+                            </tr>
+                            <tr>
+                              <td>Senior-Secondary</td>
+                              <td>NIOS</td>
+                              <td>OPEN SCHOOLING</td>
+                              <td>60%</td>
+                            </tr>
+                            <tr>
+                              <td>High-School</td>
+                              <td>CBSE</td>
+                              <td>K.V ONGC Chandkheda</td>
+                              <td>54%</td>
+                            </tr>
+                          </table>
+                    </div>
+                  </ng-template>
+                  <ng-template #Project>
+                      <div class="modal-header">
+                        <h4 class="modal-title pull-left">Project</h4>
+                        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <p style="text-align: left">
+                              &#8756; DigiSpice <br>
+                              May 2017- january 2019 <br>
+                              Client : Indonesia ( PAYPRO WALLET) <br>
+                          
+                              &#8756; DigiSpice <br>
+                              December 2017- April 2018 <br>
+                              Client : Indonesia ( UMB DashBorad And Service Creation Indosat) <br>
+                          
+                              &#8756; Spice Grooming Attendance Management Project (Team Project) 
+                              December January 2017- April 2017 <br>
+                          </p>
+                      </div>
+                    </ng-template>
+                    <ng-template #Responsibilities>
+                        <div class="modal-header">
+                          <h4 class="modal-title pull-left">Responsibilities</h4>
+                          <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <p style="text-align: left">
+                                &#8756; Developing Procedure, Function, Package ,Trigger, view On Requirement.<br>
+                                &#8756; Manageing Different DataBase Environment. <br>
+                                &#8756; Doucumenation of the Procedure And Function <br>
+                                &#8756; Provide Stored Procedures , Design And Develop Various Relational Database. <br>
+                                &#8756; Jobs Development in Talent Tools <br>
+                                &#8756; Validation ,Api Integration ( Front-End) Angular 4+ And 3rd Party Material  <br>
+                            </p> 
+            
+                        </div>
+                      </ng-template>
+                      <ng-template #Training>
+                          <div class="modal-header">
+                            <h4 class="modal-title pull-left">Training & Workshop</h4>
+                            <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              <p style="text-align: left">
+                                  &#8756; 3 Months Certification in Computer , From CDAC. <br>
+                                  &#8756; 6 Months Diploma in Web Technologies in Computer , From CDAC . <br>
+                                  &#8756; 3 Months Diploma in Programming language. <br>
+                                  &#8756;1 Year Diploma in MultiMedia .<br>
+                                  &#8756; Jobs Development in Talent Tools. <br>
+                                  &#8756; Attend Workshop On Website Designing AT CEPTA. <br>
+                              </p>
+                          </div>
+                        </ng-template>
+                        <ng-template #Extra>
+                            <div class="modal-header">
+                              <h4 class="modal-title pull-left">Exta-Curricular Activity </h4>
+                              <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              
+                                <p style="text-align: left">
+                                    &#8756; Award of Excellence in 2018.<br>
+                                    &#8756; Deisn  Spice Grooming Logo .<br>
+                                    &#8756; Deisgn IT NewsLetter of SGRRITS .<br>
+                                    &#8756; Junior Scientist AT TEQNIX EVENT FROM L.D COLLAGE OF ENGINEERING AHMEDABAD. <br>
+                                    &#8756; Jobs Development in Talent Tools <br>
+                                    &#8756; Attend Workshop On Website Designing AT CEPTA <br>
+                                </p>
+           
+                            </div>
+                          </ng-template>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--===,=============Footer Area =================-->
+        <footer class="footer_area text-center">
+            <h4>Follow Me</h4>
+            <img src="../.././../assets/Images/facebook.png" href="www.facebook.com" width="50px" height="50px">
+            </footer>
+</body>
+
+</html>

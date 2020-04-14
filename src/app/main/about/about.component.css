@@ -1,0 +1,12 @@
+
+element.style {
+    display: inline-block;
+    display: table-row-group;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #814fed;
+    border-color: #814fed
+
+}
